@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    padding: 2rem 1rem;
+    border-bottom: 1px var(--cor5) solid;
+}
+
+.navbar-brand {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.navbar-brand h1 {
+    padding-right: 1rem;
+}
+
+.navbar-brand span {
+    font-size: 1.3rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: var(--cor5);
+}

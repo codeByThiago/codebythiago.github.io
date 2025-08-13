@@ -1,13 +1,21 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* Fonte Inter*/
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap'); /* Fonte Unifraktur Maguntia para brand importante*/
+
+@import url('nav.css');
 
 :root {
-    --cor-principal: ;
+    --cor1: #373739;
+    --cor2-principal: #19191a;
+    --cor3: #020202;
+    --cor4: #c9b977;
+    --cor5: #e6e3d9;
+    
+    --cor-de-texto-principal: ;
     --font-inter: "Inter", sans-serif;
-}
-
-
+    --font-unifraktur: "UnifrakturMaguntia", cursive;
+} 
 
 * {
     margin: 0;
@@ -16,4 +24,22 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+body {
+    background-color: var(--cor2-principal);
+    color: var(--cor5);
+}
+
+.font-brand {
+    font-size: 2rem;
+    font-family: var(--font-unifraktur);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-extrabold {
+    font-weight: bolder;
 }
