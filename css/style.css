@@ -31,6 +31,19 @@ body {
     color: var(--cor5);
 }
 
+footer {
+    background-color: var(--cor3);
+}
+
+footer a {
+    display: block;
+}
+
+
+footer img {
+    width: 50px;
+}
+
 .font-brand {
     font-size: 2rem;
     font-family: var(--font-unifraktur);
